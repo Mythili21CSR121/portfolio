@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow{
+    transition: all 0.3s ease-in-out;
+}
+.glow:hover{
+    box-shadow: 0 0 25px rgb(114, 221, 125);
+}
+.img_glow:hover{
+    box-shadow: 0 0 25px rgb(114, 221, 125);
+}
+.neno-button{
+    transition: all 0.3s ease-in-out;
+}
+.neno-button:hover{
+    box-shadow: 0 0 15px rgb(163, 233, 179);
+}
+/* Adjust the margin and padding as needed */
+.tabs, .tabs_text {
+    font-size: medium;
+}
+  
+  /* Add margin to the time_period class */
+/* .time_period{
+    display: flex;
+    justify-content: left;
+} */
+  
+  /* Add margin to the skills list items */
+#skills li{
+    margin-bottom: 15px;
+}
+  
