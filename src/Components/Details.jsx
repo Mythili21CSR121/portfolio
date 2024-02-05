@@ -55,6 +55,7 @@ const Details = () => {
       <div id="skills" className="p-6 mt-20 rounded-xl font-poppins overflow-visible mx-auto max-w-5xl">
         <h1 data-aos="fade-left" className="text-3xl lg:text-[50px] text-green-500 mb-10 text-center uppercase">
           Skills
+    
         </h1>
         <div data-aos="fade-up" className='p-2 shadow-lg img_glow text-lg overflow-hidden rounded-xl bg-white'>
           <div className='scrolling-container md:text-lg tabs_text sm:text-xs p-3'>
