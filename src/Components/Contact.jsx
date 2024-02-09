@@ -14,6 +14,7 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
   return (
     <div id="Contact" className="p-4 lg:p-15 flex flex-col bg-green-50 items-center justify-center">
