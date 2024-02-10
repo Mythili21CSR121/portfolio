@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import {FaTimes} from "react-icons/fa";
 import {CiMenuFries} from "react-icons/ci";
+import logo_portfolio from "../assets/logo_portfolio.png"
 
 const Nav = () => {
   const [click,setClick]=useState(false);
@@ -33,7 +34,7 @@ const Nav = () => {
       <div className={`fixed w-full bg-green-200 top-0 z-50 ${click ? 'lg:hidden' : ''}`}>
       <div className="h-10vh flex justify-between z-50 text-black lg:py-5 px-10 py-2 bg-green-200 border-b">
         <div className="flex items-center flex-1">
-          <span style={{fontSize: '2rem',fontFamily:'font-poppins',fontWeight: 'bold'}}>MS</span>
+          <img src={logo_portfolio} className="w-[3.5rem] h-[3.5rem]" />
         </div>
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
           <div className="flex-10">
