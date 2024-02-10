@@ -10,7 +10,7 @@ export default function Footer() {
         <FontAwesomeIcon icon={faEnvelope} /> mythiliselvaraju2004@gmail.com
       </div>
       <div className="mt-2">
-        <FontAwesomeIcon icon={faPhone} /> +91 99446682438
+        <FontAwesomeIcon icon={faPhone} /> +91 9944682438
       </div>
     </div>
   );
