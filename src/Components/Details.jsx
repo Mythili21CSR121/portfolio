@@ -64,7 +64,7 @@ const Details = () => {
                 <span className='font-bold text-[18px]'>Java Programming</span>
                 <div className='flex items-center mt-1'>
                   <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={80} />
+                    <LinearProgress color="success" variant="determinate" value={80} />
                   </div>
                 </div>
               </li>
@@ -72,7 +72,7 @@ const Details = () => {
                 <span className='font-bold text-[18px]'>C Programming</span>
                 <div className='flex items-center mt-1'>
                   <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={50} />
+                    <LinearProgress color="success" variant="determinate" value={50} />
                   </div>
                 </div>
               </li>
@@ -80,7 +80,7 @@ const Details = () => {
                 <span className='font-bold text-[18px]'>HTML, CSS, JavaScript</span>
                 <div className='flex items-center mt-1'>
                   <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={70} />
+                    <LinearProgress color="success" variant="determinate" value={70} />
                   </div>
                 </div>
               </li>
@@ -88,7 +88,7 @@ const Details = () => {
                 <span className='font-bold text-[18px]'>React</span>
                 <div className='flex items-center mt-1'>
                   <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={80} />
+                    <LinearProgress color="success" variant="determinate" value={80} />
                   </div>
                 </div>
               </li>
@@ -96,7 +96,7 @@ const Details = () => {
                 <span className='font-bold text-[18px]'>MYSQL</span>
                 <div className='flex items-center mt-1'>
                   <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={50} />
+                    <LinearProgress color="success" variant="determinate" value={50} />
                   </div>
                 </div>
               </li>
@@ -104,7 +104,7 @@ const Details = () => {
                 <span className='font-bold text-[18px]'>Figma</span>
                 <div className='flex items-center mt-1'>
                   <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={49} />
+                    <LinearProgress color="success" variant="determinate" value={49} />
                   </div>
                 </div>
               </li>

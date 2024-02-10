@@ -9,7 +9,7 @@ import Details from './Components/Details'
 
 const App = () => {
   return (
-    <div className="bg-green-50">
+    <div className="bg-green-50 overflow-hidden">
       <Nav />
       <Banner />
       <About />
