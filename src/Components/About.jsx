@@ -1,5 +1,6 @@
 import img from '../assets/profile.jpg'
 import React from 'react';
+import resume from '../assets/MYTHILI S.pdf'
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
-              <button className="neno-button shadow-x1 hover:shadow-green-100 text-black border-2 hover:bg-green-200 border-green-500 rounded-lg py-4 px-8 uppercase relative overflow-hidden">Resume</button>
+              <a href={resume} download><button className="neno-button shadow-x1 hover:shadow-green-100 text-black border-2 hover:bg-green-200 border-green-500 rounded-lg py-4 px-8 uppercase relative overflow-hidden">Resume</button></a>
             </div>
           </div>
         </div>
